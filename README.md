@@ -70,5 +70,18 @@ expense_tracker/
   "refresh": "<refresh_token>"
 }
 
-## 📂 Project Structure
+```
+## 🔸 Expense
+
+- `POST /api/expenses/` — Add new expense  
+  **Body:**
+  ```json
+  {
+  "amount": 250.75,
+  "category": "FOOD",
+  "date": "2025-07-12"
+}
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d378b2f7-ce08-40ab-bfa3-544e9a70f864" />
+
 
