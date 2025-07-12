@@ -53,21 +53,14 @@ expense_tracker/
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c005f43f-3975-4fa1-8432-e74f2889f9f1" />
 
-- `POST /api/login/` — Login with email and password
+- `POST /api/login/` — Login user  
   **Body:**
   ```json
-{
+  {
   "email": "user@example.com",
   "password": "YourPassword"
 }
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e3ec4a59-98aa-41ff-a0c1-920702b3a3b9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/94680d8a-b29e-4a98-a2d1-7962bef3c555" />
 
-Returns:
-
-json
-{
-  "access": "<access_token>",
-  "refresh": "<refresh_token>"
-}
 
