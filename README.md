@@ -92,3 +92,37 @@ expense_tracker/
 - `GET /api/expenses/?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD` — — List expenses in date range
 ---
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48f96ca2-be68-457b-8c7f-b272599d9ed4" />
+
+
+---
+
+##  🔸Analytics
+
+- `GET /api/expenses/analytics/?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD&trend=daily|weekly|monthly`
+  ```json
+  {
+  "total_expenses": 1500.75,
+  "category_breakdown": [
+    {"category": "FOOD", "total": 800.25},
+    {"category": "TRAVEL", "total": 700.50}
+  ],
+  "trends": [
+    {"period": "2025-07-10", "total": 500.00, "average": 250.00},
+    ...
+  ]
+}
+
+
+---
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9f964d91-9ede-4a17-95f9-b79018cfa944" />
+
+---
+
+## 📥 Installation
+
+# 1. Clone the repo
+- `git clone https://github.com/your-username/expense-tracker-api.git
+   cd expense-tracker-api`
+
+
+
