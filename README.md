@@ -63,4 +63,12 @@ expense_tracker/
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/94680d8a-b29e-4a98-a2d1-7962bef3c555" />
 
+**Return:**
+  ```json
+  {
+  "access": "<access_token>",
+  "refresh": "<refresh_token>"
+}
+
+
 
