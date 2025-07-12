@@ -54,8 +54,8 @@ expense_tracker/
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c005f43f-3975-4fa1-8432-e74f2889f9f1" />
 
 - `POST /api/login/` — Login with email and password
-Body:
-json
+  **Body:**
+  ```json
 {
   "email": "user@example.com",
   "password": "YourPassword"
