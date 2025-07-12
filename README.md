@@ -73,7 +73,8 @@ expense_tracker/
 ```
 ## 🔸 Expense
 
-- `POST /api/expenses/` — Add new expense  
+- `POST /api/expenses/` — Add new expense
+- # Headers: Authorization: Bearer <access_token>
   **Body:**
   ```json
   {
@@ -81,6 +82,7 @@ expense_tracker/
   "category": "FOOD",
   "date": "2025-07-12"
 }
+<img width="1229" height="259" alt="image" src="https://github.com/user-attachments/assets/381823a2-d79f-4cd5-8a66-43da2a3ea29c" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d378b2f7-ce08-40ab-bfa3-544e9a70f864" />
 
