@@ -1,4 +1,4 @@
-# 💸 Expense Tracker API
+# 💸 Expense Tracker APPLICATION
 
 A simple backend API for an **Expense Tracker Application** built with **Django**, **Django REST Framework**, and **JWT Authentication**. It allows users to register, log in, and manage their daily expenses with analytics support.
 
