@@ -26,15 +26,15 @@ A simple backend API for an **Expense Tracker Application** built with **Django*
 
 ## 📂 Project Structure
 
-expense_tracker/
-├── expense_tracker_app/
-│ ├── models.py # Custom User & Expense Models
-│ ├── serializers.py # DRF Serializers
-│ ├── views.py # API Views (Register, Login, Expense, Analytics)
-│ ├── urls.py # App-level Routing
-├── expense_tracker_pro/
-│ ├── settings.py # Project Settings
-│ ├── urls.py # Main Routing
+- `expense_tracker/`
+- `├── expense_tracker_app/`
+- `│ ├── models.py # Custom User & Expense Models`
+- `│ ├── serializers.py # DRF Serializers`
+- `│ ├── views.py # API Views (Register, Login, Expense, Analytics)`
+- `│ ├── urls.py # App-level Routing`
+- `├── expense_tracker_pro/`
+- `│ ├── settings.py # Project Settings`
+- `│ ├── urls.py # Main Routing`
 
 ## 🔐 API Endpoints
 
@@ -120,25 +120,25 @@ expense_tracker/
 
 ## 📥 Installation
 
-# 1. Clone the repo
+### 1. Clone the repo
 - `git clone https://github.com/your-username/expense-tracker-api.git`
 - `cd expense-tracker-api`
 
-# 2. Create virtual environment & install dependencies
+### 2. Create virtual environment & install dependencies
 - `python -m venv venv`
 - `source venv/bin/activate  # Windows: venv\Scripts\activate`
 - `pip install -r requirements.txt`
 
-# 3. Run migrations
+### 3. Run migrations
 - `python manage.py makemigrations`
 - `python manage.py migrate`
 
-# 4. Run the server
+### 4. Run the server
 - `python manage.py runserver`
 
 ## 🧪 Sample Credentials (for testing)
 
-# Email                 # Password
+# Email                 Password
 ---
 test@example.com        Test@1234
 
