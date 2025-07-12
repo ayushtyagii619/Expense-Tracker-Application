@@ -138,7 +138,7 @@ A simple backend API for an **Expense Tracker Application** built with **Django*
 
 ## 🧪 Sample Credentials (for testing)
 
-# Email                 Password
+### Email                 Password
 ---
 test@example.com        Test@1234
 
