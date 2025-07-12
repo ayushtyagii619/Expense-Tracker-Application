@@ -121,8 +121,28 @@ expense_tracker/
 ## 📥 Installation
 
 # 1. Clone the repo
-- `git clone https://github.com/your-username/expense-tracker-api.git
-   cd expense-tracker-api`
+- `git clone https://github.com/your-username/expense-tracker-api.git`
+- `cd expense-tracker-api`
+
+# 2. Create virtual environment & install dependencies
+- `python -m venv venv`
+- `source venv/bin/activate  # Windows: venv\Scripts\activate`
+- `pip install -r requirements.txt`
+
+# 3. Run migrations
+- `python manage.py makemigrations`
+- `python manage.py migrate`
+
+# 4. Run the server
+- `python manage.py runserver`
+
+## 🧪 Sample Credentials (for testing)
+
+# Email                 # Password
+---
+test@example.com        Test@1234
+
+
 
 
 
