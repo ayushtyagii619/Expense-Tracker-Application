@@ -85,3 +85,5 @@ expense_tracker/
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d378b2f7-ce08-40ab-bfa3-544e9a70f864" />
 
 
+- `GET /api/expenses/?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD` — — List expenses in date range
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48f96ca2-be68-457b-8c7f-b272599d9ed4" />
